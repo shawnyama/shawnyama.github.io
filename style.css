@@ -1,0 +1,16 @@
+a:hover {
+  color: #fa8072;
+}
+
+html {
+  background: #88bfbe;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  margin: 50px;
+}
