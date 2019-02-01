@@ -1,16 +1,45 @@
-a:hover {
-  color: #fa8072;
-}
-
 html {
   background: #88bfbe;
-  font-family: "Arial", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
-header {
+header, footer {
   text-align: center;
 }
 
 body {
-  margin: 50px;
+  margin: 80px;
+}
+
+footer {
+  position: relative;
+}
+
+h1 {
+  font: 80px 'Staatliches', cursive;
+  color: #ffffff;
+  text-shadow: -4px 3px 0 #800020;
+  border-bottom: 4px dashed #ffffff
+}
+
+h2 {
+  font: 40px 'Staatliches', cursive;
+  color: #ffffff;
+  text-shadow: -3px 2px 0 #800020;
+}
+
+p {
+  padding: 10px 20px;
+  background: #abcecd;
+  font-size: 18px;
+}
+
+a {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #fa8072;
 }
