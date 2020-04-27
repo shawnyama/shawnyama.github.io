@@ -3,40 +3,202 @@
   <head>
     <title>Shawn Yama</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    ​<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
   </head>
   <div>
     <header>
       <h1>Shawn Yama</h1>
-      <b>
-        <a href="https://github.com/shawnyama">GitHub</a>
-        <span style="color:white; font-size:20px;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://www.linkedin.com/in/shawn-yama-1580a5178/">LinkedIn</a>
-      </b>
     </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
     <body>
-      <h2>About</h2>
-      <p>
-        Hello there, I'm Shawn Yama and I am in my third year of Computer Science at Ontario Tech University. 
-        I am in the Digital Media specialization since I want to integrate my artistic abilities
-        into the software that I develop.
-      </p>
-      <h2>Projects</h2>
-      <p>
-        Shawn Yama is working on this.
-      </p>
-      <h2>Contact</h2>
-      <p>
-        Feel free to contact me at shawn.yama@uoit.net.
-      </p>
+      <div id="content">
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          Hi, welcome to my portfolio. I am a Computer Science student at Ontario Tech University. 
+          I have chosen this profession due to its creative abundance. Designing an interactive 
+          digital experience stimulates my logical and creative drives. Whether it's building 
+          a seamless user interface or an immersive video game, I am enticed. My strong background
+            in visual arts gives me the artistic-edge needed for a charming and memorable design.
+        </p>
+        <p class="expandable">  
+          Throughout my program I have worked on various software development and data analysis 
+          projects collaboratively and individually. This has allowed me to explore many aspects 
+          of this field. I want to continue exploring it as much as I can in order to see how I 
+          truly want to apply my programming skills. Fortunately, I am in the co-op program which 
+          gives me the opportunity to get a good taste of the variety of jobs available for me. 
+          Currently I am searching for co-ops for the Summer.
+        </p>
+        <div class="readmore">
+          <a>Read more</a>
+        </div>
+      </div>
+      <div id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="brief">
+            <h3>Koomba</h3>
+            <div class="icons">
+              <i class="devicon-vuejs-plain-wordmark colored"></i>
+              <i class="devicon-nodejs-plain-wordmark colored"></i>
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+            </div>  
+            <div class="description">
+              An online shopping site for buying Koomba streetwear
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="expandable">
+            <div class="left">
+              <p>
+                More details coming soon
+              </p>
+              <p class="course">
+                Course: Web Application Development - CSCI 3230U 
+              </p>
+            </div>
+            <div class="right"></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="brief">
+            <h3>Auction Sales Service</h3>
+            <div class="icons">
+              <i class="devicon-cplusplus-plain colored"></i>
+              <i class="devicon-java-plain-wordmark colored"></i>
+              <i class="devicon-linux-plain colored"></i>
+            </div>
+            <div class="description">
+              An auction sales service for Linux Bash Shell
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>  
+          <div class="expandable">
+            <div class="left">
+              <p>
+                Here is the <a href="https://github.com/JaG31/Software-Quality-Assurance">front-end</a>
+                and here is the <a href="https://github.com/MoizAbdul56/3060U_Back">back-end</a>.
+              </p>
+              <p class="course">
+                Course: Software Quality Assurance - CSCI 3060U
+              </p>
+            </div>
+            <div class="right"></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="brief">
+            <h3>Zelda Timeline</h3>
+            <div class="icons">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <div class="description">
+              A web app that shows a new take on the Zelda Timeline
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="expandable">
+            <div class="left">
+              <p>
+                Created a website of a timeline for a popular video game franchise, The Legend of Zelda.
+                I implemented unique fonts, graphics and logos to give the website a Zelda atmosphere/theme.
+                This timeline helps Zelda fans easily understand how the games are connected.
+              </p>
+              <p>
+                <a href="https://github.com/shawnyama/zelda-timeline">View on GitHub</a>
+              </p>
+            </div>
+            <div class="right"></div>
+          </div>
+        </div> 
+        <div class="project">
+          <div class="brief">
+            <h3>PowerPal</h3>
+            <div class="icons">
+              <i class="devicon-android-plain colored"></i>
+            </div>
+            <div class="description">
+              A mobile app that connects you with a workout partner
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="expandable">
+            <div class="left">
+              <p>
+                 Collaborated with colleagues to design a
+                fitness app that connects people with new workout partners.
+                Proposed, prototyped and designed the application for the identified stakeholders.
+                Presented PowerPal in a YouTube video and identified possible areas for improvement.
+              </p>
+              <p class="course">
+                Course: Human-Computer Interaction - CSCI 4620U
+              </p>
+            </div>
+            <div class="right">
+              <iframe width="350" height="200" src="https://www.youtube.com/embed/LXle-ju7B9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>
+        <div class="project">
+          <div class="brief">
+            <h3>Course Tracker</h3>
+            <div class="icons">
+              <i class="devicon-java-plain-wordmark colored"></i>
+              <i class="devicon-intellij-plain colored"></i>
+            </div>
+            <div class="description">
+              An all in one syllabus for university students
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>
+          <div class="expandable">
+            <div class="left">
+              <p>
+                Collaborated with colleagues to create a schedule and all in one syllabus for university students.
+                Created a snappy application with a usable user-interface.
+                Presented the features of the application and its design process to the class.
+              </p>
+              <p>
+                <a href="https://git.io/fjJgK">View on GitHub</a>
+              </p>
+              <p class="course">
+                Course: Software Systems Development & Integration - CSCI 2020U
+              </p>
+            </div>
+            <div class="right">
+              <iframe width="350" height="200" src="https://www.youtube.com/embed/O1IcPKUTXP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <div id="links">
+          <div><a href="https://github.com/shawnyama"><i class="fa fa-github"></i></a></div>
+          <div><a href="https://www.linkedin.com/in/shawn-yama"><i class="fa fa-linkedin-square"></i></a></div>
+        </div>
+        <h2>Contact</h2>
+        <p>  
+          Feel free to contact me!
+        </p>
+        <p>
+          Check out my <a href="https://www.linkedin.com/in/shawn-yama">LinkedIn</a>
+          and you can email me at <a href="mailto:shawn.yama@ontariotechu.net">shawn.yama@ontariotechu.net</a>.
+        </p>
+      </div>
+    </div>
     </body>
     <footer>
-      <b>
-        <a href="https://github.com/shawnyama">GitHub</a>
-        <span style="color:white; font-size:20px;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://www.linkedin.com/in/shawn-yama-1580a5178/">LinkedIn</a>
-      </b>
+      Shawn Yama - 2020
     </footer>
   </div>
 </html>

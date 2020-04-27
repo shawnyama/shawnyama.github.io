@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Kotta+One|Old+Standard+TT&display=swap');
+
+* {
+  color: grey;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kotta One', serif;
+}
+
+header, footer {
+  background: #04b976;
+  padding: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+footer {
+  margin-top: 5rem;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px #fa8072;
+}
+
+h2, h3 {
+  font-family: 'Old Standard TT', serif;
+  color: #04b976;
+  font-weight: lighter;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+nav {
+  background: #05df8e;
+  padding: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+nav a {
+  font-family: 'Old Standard TT', serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.75rem;
+  padding: 1.15rem;
+}
+
+nav a:hover {
+  background: #79e79e;
+  color: #fa8072;
+}
+
+body {
+  margin: auto;
+  background: white;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#content {
+  max-width: 60%;
+  margin: auto;
+}
+
+.project {
+  border-top: 1px solid lightgrey;
+}
+
+.project .brief {
+  padding: 1rem;
+}
+
+.project .brief:hover {
+  background: #79e79e;
+  cursor: pointer;
+}
+
+.project .brief h3 {
+  font-size: 1.75rem;
+  font-style: italic;
+  color: #fa8072;
+}
+
+.project .brief .icons {
+  font-size: 4rem;
+  float: right;
+  margin-top: -3rem;
+}
+
+.project .brief .icons i {
+  color: #04b976;
+}
+
+.project .brief .description, .project .brief .description i {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.project .expandable {
+  padding: 1rem;
+  background: #aaf0be;
+  position: relative;
+}
+
+.project .expandable .left {
+  grid-column: 1;
+  padding: 1rem;
+  
+}
+
+.project .expandable .left .course {
+  font-size: 1rem;
+  color: #04b976;
+  position: absolute;
+  bottom: 0;
+}
+
+.project .expandable .right {
+  grid-column: 2;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+
+p a, .readmore a, #projects a {
+  color: #fa8072;
+  font-weight: bold;
+}
+
+#links i {
+  color: #fa8072;
+  font-size: 4rem;
+}
+
+p a:hover, .readmore a:hover, #links i:hover, #projects a:hover {
+  color: #f85441;
+  cursor: pointer;
+}
+
+#about, #projects, #contact {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#about, #projects {
+  border-bottom: 1px solid #04b976;
+}
+
+.expandable {
+  display: none;
+}
+
+.readmore {
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+#links {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0.25em;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: #fa8072;
+}
+
+#links div {
+  padding-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #content {
+    max-width: 90%;
+  }
+}
